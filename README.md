@@ -1,29 +1,58 @@
-# HR-Dashboard-MySQL-PowerBI
 
-![image](https://user-images.githubusercontent.com/56026296/229609893-b7b1f261-5941-45af-8322-1ccb2535d36b.png)
 
-## Data Used
+# Jazz HR Workforce Analytics Dashboard | PowerBI
 
-**Data** - HR Data with over 22000 rows from the year 2000 to 2020.
+📌 **Project Overview**
 
-**Data Cleaning** - MySQL, Jupyter Notebook
+This project presents a Power BI HR Workforce Analytics Dashboard built to analyze employee data and uncover insights related to demographics, workforce distribution, attrition, and tenure.
+The dashboard enables HR teams and leadership to monitor workforce trends, identify retention risks, and support strategic human resource planning.
 
-**Data Visualization** - PowerBI
+🎯 **Business Objective**
 
-## Summary of Findings
- - There are more male employees
- - White race is the most dominant while Native Hawaiian and American Indian are the least dominant.
- - The youngest employee is 20 years old and the oldest is 57 years old
- - 5 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64). A large number of employees were between 25-34 followed by 35-44 while the smallest group was 55-64.
- - A large number of employees work at the headquarters versus remotely.
- - The average length of employment for terminated employees is around 7 years.
- - The gender distribution across departments is fairly balanced but there are generally more male than female employees.
- - The Marketing department has the highest turnover rate followed by Training. The least turn over rate are in the Research and development, Support and Legal departments.
- - A large number of employees come from the state of Ohio.
- - The net change in employees has increased over the years.
-- The average tenure for each department is about 8 years with Legal and Auditing having the highest and Services, Sales and Marketing having the lowest.
+Organizations require accurate insights to:
 
-## Limitations
+Understand employee demographics and diversity
 
-- Some records had negative ages and these were excluded during querying(967 records). Ages used were 18 years and above.
-- Some termdates were far into the future and were not included in the analysis(1599 records). The only term dates used were those less than or equal to the current date.
+Monitor attrition and departmental turnover
+
+Analyze tenure and workforce stability
+
+Support data-driven HR and talent decisions
+
+This dashboard consolidates HR data into a single, interactive, executive-ready view.
+
+👤 **Workforce Demographics**
+
+The workforce is male-dominated, though gender distribution across departments remains fairly balanced.
+
+White employees represent the largest racial group, while Native Hawaiian and American Indian groups are the least represented.
+
+Employee ages range from 20 to 57 years.
+
+The largest age group is 25–34, followed by 35–44, while 55–64 is the smallest group.
+
+🏢 **Work Location & Geography**
+
+A significantly higher number of employees work at the headquarters compared to remote locations.
+
+Ohio contributes the highest number of employees among all states.
+
+🔁 **Attrition & Turnover Analysis**
+
+The Marketing department records the highest turnover rate, followed by Training.
+
+The lowest turnover rates are observed in Research & Development, Support, and Legal departments.
+
+The average employment duration of terminated employees is approximately 7 years.
+
+Overall, the net employee count has increased steadily over the years, indicating workforce growth.
+
+⏳ **Tenure & Departmental Stability**
+
+The average tenure across departments is around 8 years.
+
+Legal and Auditing departments have the highest average tenure.
+
+Services, Sales, and Marketing show comparatively lower tenure, highlighting potential retention challenges.
+
+
